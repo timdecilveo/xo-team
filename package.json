@@ -1,0 +1,19 @@
+{
+  "name": "xo-team",
+  "version": "1.0.0",
+  "description": "xo-team-website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timdecilveo/xo-team.git"
+  },
+  "author": "timothy-decilveo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timdecilveo/xo-team/issues"
+  },
+  "homepage": "https://github.com/timdecilveo/xo-team#readme"
+}
