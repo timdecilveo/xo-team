@@ -38,7 +38,6 @@ def contact():
     server = smtplib.SMTP("smtp.gmail.com", 587)
     server.starttls()
     server.login(gmail, pw)
-
     form = InfoForm()
 
     if form.validate_on_submit():
