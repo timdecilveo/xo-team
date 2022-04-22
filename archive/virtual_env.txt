@@ -8,3 +8,6 @@ conda create -n xolp flask
 
 To activate env:
 conda activate xolp
+-------------------------------------------------------------------------
+gcloud builds submit --tag gcr.io/xo-capital-website/xo-capital-website-container
+gcloud run deploy --image gcr.io/xo-capital-website/xo-capital-website-container --platform managed
