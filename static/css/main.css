@@ -54,7 +54,6 @@ div.container2 p {
     font-weight: bold;
 }
 
-
 #xo-capital-llc{
     text-decoration: none;
 }
@@ -100,6 +99,14 @@ div.container2 p {
     text-align: center;
 }
 
+.main-container {
+    min-height: 100vh; /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px; /* height of your footer */
+}
+
 footer{
     position: absolute;
     bottom: 0;
@@ -117,4 +124,12 @@ footer{
     font-size: 11px;
     color: #000000;
     font-weight: bold;
+}
+
+/* Responsive Layout */
+@media screen and (max-width: 650px) {
+    .form-group {
+        max-width: 250px;
+        min-width: 200px;
+    }
 }
