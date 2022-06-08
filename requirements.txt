@@ -1,12 +1,12 @@
 certifi==2022.5.18.1
-click @ file:///C:/ci/click_1646056762388/work
-colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
-Flask @ file:///opt/conda/conda-bld/flask_1648041541647/work
+# click @ file:///C:/ci/click_1646056762388/work
+# colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
+Flask==2.0.3
 Flask-WTF==1.0.1
-itsdangerous @ file:///tmp/build/80754af9/itsdangerous_1621432558163/work
-Jinja2 @ file:///opt/conda/conda-bld/jinja2_1647436528585/work
-MarkupSafe @ file:///C:/ci/markupsafe_1654508036328/work
+itsdangerous==2.0.1
+Jinja2==3.0.3
+# MarkupSafe @ file:///C:/ci/markupsafe_1654508036328/work
 python-dotenv==0.20.0
-Werkzeug @ file:///opt/conda/conda-bld/werkzeug_1645628268370/work
+Werkzeug==2.0.0
 wincertstore==0.2
 WTForms==3.0.1
