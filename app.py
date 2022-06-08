@@ -4,7 +4,7 @@ from wtforms import StringField, TelField, EmailField, TextAreaField, SubmitFiel
 from wtforms.validators import DataRequired
 import smtplib
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
 app = Flask(__name__)
 
